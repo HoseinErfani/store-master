@@ -1,0 +1,6 @@
+.banner-section-1 img {
+  transition-duration: 250ms;
+}
+.banner-section-1 img:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=banner-section.css.map */

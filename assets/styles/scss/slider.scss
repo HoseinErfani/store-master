@@ -1,0 +1,15 @@
+.custom-slider-text{
+    background-color: #0000006b;
+    padding-top:11px;
+    padding-bottom:11px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 0px #ffffff59;
+}
+
+.custom-btn-more{
+    transition-duration: 230ms;
+    &:hover{
+        color:black!important;
+        background-color:white!important;
+    }
+}

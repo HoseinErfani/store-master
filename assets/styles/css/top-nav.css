@@ -1,0 +1,122 @@
+.bg-top-nav {
+  background-color: #232f3e;
+  /* color:white; */
+}
+
+.top-nav-left {
+  font-size: 14px;
+}
+.top-nav-left a {
+  padding: 10px;
+  color: white;
+}
+
+.top-nav-right {
+  font-size: 14px;
+}
+
+.custom-nav-border-end {
+  border-left: 1px solid #5b5e60 !important;
+}
+
+.custom-btn-font-size {
+  font-size: 14px !important;
+}
+
+ul.basket {
+  overflow-y: scroll;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3882352941);
+  border: 0.3px solid rgba(41, 41, 41, 0.3490196078);
+  padding-right: 4px;
+  height: 400px;
+}
+ul.basket li:hover {
+  cursor: pointer;
+}
+ul.basket li:hover img {
+  opacity: 0.85;
+}
+ul.basket li img {
+  width: 64px;
+  height: 64px;
+}
+ul.basket li ul.custom-product-info {
+  font-size: 11px;
+}
+
+ul {
+  list-style: none !important;
+  padding-right: 0 !important;
+}
+
+ul.custom-navbar-nav > li {
+  font-size: 16px;
+}
+ul.custom-navbar-nav > li > a {
+  color: white !important;
+}
+
+.custom-position-submenu {
+  width: 100%;
+}
+
+.custom-mega-menu-items {
+  border-radius: 8px;
+  padding: 13px;
+}
+
+.custom-navbar-items-hover > li a.custom-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  margin-right: -15px;
+  transition-duration: 150ms;
+  background-color: none !important;
+}
+.custom-navbar-items-hover > li i {
+  transition-duration: 70ms;
+}
+.custom-navbar-items-hover > li:hover i {
+  visibility: visible !important;
+}
+.custom-navbar-items-hover > li:hover a {
+  margin-right: 0;
+  color: rgb(35, 75, 87) !important;
+}
+.custom-navbar-items-hover > li:active a {
+  color: white;
+}
+.custom-navbar-items-hover > li:active {
+  background-color: rgb(168, 168, 168) !important;
+}
+.custom-navbar-items-hover > li:hover {
+  background-color: rgb(226, 223, 223);
+}
+
+.custom-navbar-toggler:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.9em;
+}
+
+.login-btn {
+  color: rgba(223, 223, 223, 0.8901960784);
+  display: flex;
+}
+.login-btn:hover {
+  cursor: pointer;
+}
+.login-btn i {
+  margin-left: 10px;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=top-nav.css.map */

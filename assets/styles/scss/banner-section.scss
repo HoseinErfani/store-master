@@ -1,0 +1,8 @@
+.banner-section-1 {
+    img {
+        transition-duration: 250ms;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

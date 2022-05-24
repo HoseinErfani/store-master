@@ -1,0 +1,89 @@
+// buttons
+.owl-nav {
+    button {
+        position: absolute;
+        top: 0;
+        height: 100%;
+  
+        align-items: center;
+        padding: 0 35px;
+        height: auto;
+        top: 27%;
+        span {
+            font-size: 60px;
+            color: #000000;
+            border: 1px solid #cecece;
+            padding: 0px 19px;
+            background-color: white;
+            box-shadow: inset 0 0 10px 0px #0000001f, 0 0 20px 0px #0000002b;
+            box-sizing: border-box;
+          
+            
+        }
+    }
+    button:first-child {
+        right: -35px;
+        span{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-right: 0;
+        }
+    }
+    button:last-child {
+        left: -35px;
+        span{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-left: 0;
+        }
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+
+.custom-carousel {
+    .owl-stage {
+        >div {
+            border: .5px solid #0000000f;
+            transition-duration: 200ms;
+            &:hover {
+                box-shadow: 0 0 14px 3px #0000001a;
+            }
+        }
+    }
+}
+
+
+
+// @override
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: unset!important;
+    color: unset!important;
+    text-decoration:unset!important;
+}
+
+
+.custom-brand-card {
+    border: none;
+    border-radius: 0;
+    .brand-img-card {
+        width: 184px;
+        align-self: center;
+    }
+}
+
+
+.brand-carousel {
+    .owl-stage {
+        >div {
+            border:none;
+            transition-duration: 200ms;
+            transform: scale(1.05);
+            &:hover {
+             transform: scale(1.1);
+            }
+        }
+    }
+}

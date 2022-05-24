@@ -1,0 +1,25 @@
+.single-product .single-product-content {
+  padding-right: 30px;
+}
+.single-product .single-product-content .single-product-head .share-like {
+  font-size: 20px;
+}
+.single-product .single-product-content .single-product-head .share-like a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.single-product .single-product-content .single-product-head .share-like a.bi-heart-fill {
+  color: rgb(187, 19, 19);
+}
+.single-product .single-product-content .single-product-head .share-like a.bi-share-fill {
+  color: rgb(2, 41, 59);
+}
+.single-product .single-product-content .single-product-head .share-like a.bi-bell-fill {
+  color: rgb(168, 95, 0);
+}
+.single-product .single-product-content .single-product-describe {
+  text-align: justify;
+}
+.single-product .single-product-content .single-product-describe p {
+  line-height: 41px;
+}/*# sourceMappingURL=single-product.css.map */

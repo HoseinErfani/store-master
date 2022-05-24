@@ -1,0 +1,133 @@
+.bg-top-nav {
+    background-color: #232f3e;
+    /* color:white; */
+}
+
+.top-nav-left {
+    font-size: 14px;
+    a {
+        padding: 10px;
+        color: white;
+    }
+}
+
+.top-nav-right {
+    font-size: 14px;
+}
+
+.custom-nav-border-end {
+    border-left: 1px solid #5b5e60!important;
+ 
+}
+
+.custom-btn-font-size {
+    font-size: 14px!important;
+}
+
+ul.basket {
+    overflow-y: scroll;
+    box-shadow: 0 0 20px 0px #00000063;
+    border: .3px solid #29292959;
+    padding-right: 4px;
+    height: 400px;
+    li {
+        &:hover {
+            cursor: pointer;
+        }
+        &:hover img {
+            opacity: .85;
+        }
+        img {
+            width: 64px;
+            height: 64px;
+        }
+        ul.custom-product-info {
+            font-size: 11px;
+        }
+    }
+}
+
+ul {
+    list-style: none!important;
+    padding-right: 0!important;
+}
+
+ul.custom-navbar-nav {
+    >li {
+        font-size: 16px;
+        >a {
+            color: white!important;
+        }
+    }
+}
+
+.custom-position-submenu {
+    width: 100%;
+}
+.custom-mega-menu-items{
+    border-radius: 8px;
+    padding: 13px;
+    // box-shadow: 0 0 20px 3px #0000001f;
+}
+.custom-navbar-items-hover{
+    >li{
+        a.custom-dropdown-item{
+            display: block;
+            width: 100%;
+            padding: .25rem 1rem;
+            clear: both;
+            font-weight: 400;
+            color: #212529;
+            text-align: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
+
+            margin-right:-15px;
+            transition-duration: 150ms;
+            background-color: none!important;
+        }
+        i{
+            transition-duration: 70ms;
+        }
+        &:hover i{
+          visibility: visible!important;
+        }
+        &:hover a{
+            margin-right:0;
+            color:rgb(35, 75, 87)!important;
+        }
+        &:active a{
+color:white;
+        }
+        &:active{
+            background-color:rgb(168, 168, 168)!important;
+        }
+      
+        &:hover{
+            background-color:rgb(226, 223, 223);
+        }
+      
+    }
+}
+.custom-navbar-toggler:focus{
+    outline:none;
+}
+::-webkit-input-placeholder{
+font-size:.9em;
+}
+
+.login-btn{
+    color: #dfdfdfe3;
+    display: flex;
+    &:hover{
+        cursor: pointer;
+    }
+    i{
+        margin-left: 10px;
+    //     position: relative;
+    // top: 3px;
+      font-size: 1.4rem;
+    }
+}

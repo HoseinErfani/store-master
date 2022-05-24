@@ -1,0 +1,100 @@
+@import url("owl-car.css");
+@import url("top-nav.css");
+@import url("slider.css");
+@import url("shiping.css");
+@import url("categories.css");
+@import url("special-offers.css");
+@import url("products.css");
+@import url("banner-section.css");
+@import url("brands.css");
+@import url("footer.css");
+@import url("signin.css");
+@import url("single-product.css");
+@font-face {
+  font-family: "iransans";
+  src: url("../fonts/Vazir-Regular.woff");
+}
+p {
+  margin-bottom: 0;
+}
+
+.custom-img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .custom-col-xl-3 {
+    flex: 0 0 17.9%;
+    max-width: 17.9%;
+  }
+
+  .custom-col-xl-6 {
+    flex: 0 0 64.2%;
+    max-width: 64.2%;
+  }
+}
+.custom-text-muted {
+  color: #d5d4d4 !important;
+}
+
+.custom-mb-n23px {
+  margin-bottom: -24px;
+}
+
+.custom-fs-12 {
+  font-size: 12px !important;
+}
+
+a {
+  text-decoration: unset !important;
+  color: unset;
+}
+a:hover {
+  color: unset;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.custom-container {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+}
+
+.red-underline {
+  border-bottom: 4px solid rgb(220, 53, 69);
+  padding-bottom: 11px;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: rgba(168, 100, 106, 0.96) rgb(255, 255, 255);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(168, 100, 106, 0.96);
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}/*# sourceMappingURL=style.css.map */

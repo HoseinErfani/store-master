@@ -1,0 +1,8 @@
+.custom-product-card {
+  border: none;
+  border-radius: 0;
+}
+.custom-product-card .product-img-card {
+  width: 184px;
+  align-self: center;
+}/*# sourceMappingURL=products.css.map */

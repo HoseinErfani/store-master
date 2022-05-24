@@ -1,0 +1,31 @@
+.single-product {
+    .single-product-content {
+        padding-right: 30px;
+        .single-product-head {
+            .share-like {
+                font-size: 20px;
+                a:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+                a.bi-heart-fill {
+                    color: rgb(187, 19, 19);
+                }
+                a.bi-share-fill {
+                    color: rgb(2, 41, 59);
+                }
+                a.bi-bell-fill {
+                    color: rgb(168, 95, 0);
+                }
+            }
+        }
+        .single-product-describe {
+          
+           
+            text-align: justify;
+            p{
+                line-height: 41px;
+            }
+        }
+    }
+}

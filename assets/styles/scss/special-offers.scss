@@ -1,0 +1,90 @@
+.custom-nav-tabs .nav-item.show .nav-link,
+.custom-nav-tabs .nav-link.active {
+    color: #3b3b3b;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.custom-nav-tabs .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #8f8f8f;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.product-stars {
+    i {
+        text-shadow: 0 0 5px #d6c500;
+    }
+    i.bi-star-fill {
+        color: rgb(163, 163, 0);
+    }
+}
+
+.offer-timer {
+    >span {
+        background-color: #efefef;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-left: 16px;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .day::after {
+        content: "روز";
+        position: absolute;
+        top: 30px;
+        right: 7px;
+    }
+    .hour::after {
+        content: "ساعت";
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .min::after {
+        content: "دقیقه";
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .second::after {
+        content: "ثانیه";
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+}
+
+.offer-img-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    .offer-img-moving-container {
+        transition-duration: 300ms;
+        transition-delay: 70ms;
+    }
+    &:hover .offer-img-moving-container {
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}
+
+
+.product-offers {
+    >div {
+        border: .5px solid #0000000f;
+        >div {
+            transition-duration: 130ms;
+            padding: 40px 0;
+
+            &:hover {
+                box-shadow: 0 0 14px 3px #0000001a;
+            }
+        }
+    }
+}
