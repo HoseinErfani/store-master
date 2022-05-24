@@ -1,4 +1,4 @@
-const url='http://myliveproject.ir/store-master/product-single.html'
+const url='https://hoseinerfani.github.io/store-master/product-single.html'
 
 
 $('.owl-stage > div').on('click',function(e){
